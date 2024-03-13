@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Calculator app</title>
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="stylecommon.css">
+  <link rel="stylesheet" href="styletheme1.css"  class="style-change">
+
+</head>
+<body>
+
+<header>
+  <h2>calc</h2>
+  <div class="theme-container">
+    <p>THEME</p>
+    <div class="change-theme">
+      <div class="theme">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+      </div>
+      <label for="checkbox" class="label">
+        <div class="ball ball-center ball-right" ></div>
+      </label>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="result-container">
+    <h1 id="result">399,981</h1>
+  </div>
+
+  <div class="calculation">
+
+    <div class="number">7</div>
+    <div class="number">8</div>
+    <div class="number">9</div>
+    <div  id="delete">DEL</div>
+    
+    <div class="number">4</div>
+    <div class="number">5</div>
+    <div class="number">6</div>
+    <div class="number operator" id="plus">+</div>
+
+    <div class="number">1</div>
+    <div class="number">2</div>
+    <div class="number">3</div>
+    <div class="number operator" id="minus">-</div>
+
+    <div class="number" id="dot">.</div>
+    <div class="number">0</div>
+    <div class="number operator" id="divide">/</div>
+    <div class="number operator" id="multiply">x</div>
+
+    <div id="reset">RESET</div>
+    <div id="equal">=</div>
+  </div>
+</main>
+
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
