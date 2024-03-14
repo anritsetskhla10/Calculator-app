@@ -96,7 +96,7 @@ function isOperatorOrSpace(char) {
         if (currentInput.startsWith("0") && !currentInput.startsWith("0.")) {
             throw new Error("Error: Invalid input");
         }
-        currentInput = eval(currentInput).toString();
+        currentInput = eval(currentInput).toFixed(2).toString();
         updateResult();
     } catch (error) {
       result.textContent = "Error";
